@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Emparejar Familias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>👨‍👩‍👦 Troba a la mare de les mestres o al pare dels mestres</h1>
+        <p>Fes les parelles de pare o mare amb el mestre o mestra del col·le.</p>
+        <div id="marcador">Encerts: <span id="puntuacion">0</span></div>
+    </header>
+
+    <main id="juego-contenedor">
+
+        <section id="padre-target">
+            <h2>El pare o la mare</h2>
+            <img id="foto-padre" src="images/placeholder.png" alt="Foto del Padre" class="foto-principal">
+        </section>
+
+        <section id="opciones-hijos">
+            <h2>Opcions</h2>
+            <div id="cuadricula-opciones">
+                </div>
+        </section>
+
+    </main>
+
+    <div id="controles">
+        <button id="btn-comprobar" disabled>Comprobar Parella</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
